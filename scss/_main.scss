@@ -1,0 +1,33 @@
+
+.home-slider {
+  margin-top: -20px;
+}
+.carousel-inner {
+  img {
+    width: 100%;
+  }
+}
+
+.home-about {
+  &__item{
+    margin: 60px 0;
+  }
+}
+
+.home-product {
+  &__title {
+    margin: 40px 0 25px 0;
+    color: #6f7173;
+    font-sIZE: 40px;
+  }
+  &__subtitle {
+    margin: 84px 0 22px 0;
+    color: #6f7173;
+    font-size: 25px;
+  }
+  &__content {
+    color: #909090;
+    font-size: 15px;
+    line-height: 40px;
+  }
+}

@@ -1,0 +1,29 @@
+.navbar-default {
+  .navbar-nav > li {
+    & > a {
+      display: inline-block;
+      color: #919191;
+      font-size: 20px;
+      line-height: 1;
+      text-decoration: none;
+      cursor: pointer;
+      &:after {
+        display: block;
+        content: "";
+        height: 3px;
+        width: 0;
+        background-color: #5094f2;
+        transition: width .3s ease-in-out;
+        position: relative;
+        top: 16px;
+      }
+      &:focus:after {
+        width: 100%;
+      }
+      &:hover:after {
+        width: 100%;
+      }
+    }
+  }
+}
+
