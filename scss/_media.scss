@@ -1,2 +1,49 @@
 
+@media (max-width: 767px) {
+.home-about {
+  background: none;
+  &__wrapper {
+    padding: 30px 0 15px 0;
+    border-bottom: 2px solid #cccccc;
+  }
+  &__icon {
+    img {
+      width: 50%;
+      }
+    }
+  &__link {
+    font-size: 20px;
+  }
+  &__text {
+    text-align: left;
+    font-size: 19px;
+  }
+}
+
+  .home-product {
+    padding: 40px 0;
+    &__image {
+      img {
+        width: 50%;
+      }
+    }
+    &__title {
+      margin: 40px 0 25px 0;
+      color: #6f7173;
+      font-size: 35px;
+    }
+    &__subtitle {
+      margin: 84px 0 22px 0;
+      color: #6f7173;
+      font-size: 34px;
+    }
+    &__content {
+      color: #909090;
+      font-size: 17px;
+      line-height: 40px;
+    }
+  }
+
+}
+
 
