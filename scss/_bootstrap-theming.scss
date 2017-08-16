@@ -1,7 +1,9 @@
 .navbar-default {
+  padding: 20px 0;
   .navbar-nav > li {
     & > a {
       display: inline-block;
+      padding: 25px 32px 0 0;
       color: #919191;
       font-size: 20px;
       line-height: 1;
@@ -15,7 +17,7 @@
         background-color: #5094f2;
         transition: width .3s ease-in-out;
         position: relative;
-        top: 16px;
+        top: 23px;
       }
       &:focus:after {
         width: 100%;
@@ -27,3 +29,11 @@
   }
 }
 
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 70px;
+  color: #404040;
+  font-size: 42px;
+  line-height: 20px;
+}

@@ -1,0 +1,10 @@
+.page-footer {
+  padding: 25px 0;
+  border-top: 2px solid #e5e5e5;
+  &__copyright {
+    p {
+      color: #979797;
+      font-size: 15px;
+    }
+  }
+}
