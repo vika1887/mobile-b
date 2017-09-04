@@ -39,6 +39,12 @@
     font-size: 44px;
     font-weight: 100;
     text-align: left; }
+  .carousel-caption .btn-lg {
+    width: 175px;
+    font-size: 22px;
+    border-radius: 1px; }
+  .carousel-caption .glyphicon-ok-sign {
+    margin-right: 8px; }
 
 body {
   overflow-x: hidden;
