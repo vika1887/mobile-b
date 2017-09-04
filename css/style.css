@@ -32,6 +32,14 @@
   font-size: 42px;
   line-height: 20px; }
 
+.carousel-caption {
+  margin-left: 327px;
+  margin-bottom: 109px; }
+  .carousel-caption h1, .carousel-caption p {
+    font-size: 44px;
+    font-weight: 100;
+    text-align: left; }
+
 body {
   overflow-x: hidden;
   font-size: 16px;
